@@ -173,39 +173,19 @@ p {
   text-align: center;
 }
 
-.box-container .box i {
-  height: 3rem;
-  width: 3rem;
-  line-height: 3rem;
-  text-align: center;
-  border-radius: 50%;
-  color: #fff;
-  background: #de1bfc;
-  font-size: 2rem;
-  margin: 1rem 0;
-}
 
-.box-container .box h3 {
-  font-size: 20px;
-  color: darkslategrey;
-}
-
-.box-container .box p {
-  padding: 0 15px;
-  font-size: 16px;
-}
 
 .map {
   background-color: white;
   box-shadow: darkslategrey 20px 20px 20px;
   width: 650px;
-  height: 400px;
+  height: 450px;
 }
 
 .map1 {
   text-align: left;
   margin: 2%;
-  margin-top: 2%;
+  margin-top: 4%;
 }
 
 .map2 {
