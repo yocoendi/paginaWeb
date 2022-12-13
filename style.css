@@ -124,7 +124,6 @@ p {
   align-self: auto;
   height: auto;
   width: auto;
-  
   padding: 10px 40px;
   border: 3px solid darkslategrey;
   text-decoration: none;
@@ -181,7 +180,7 @@ p {
   text-align: center;
   border-radius: 50%;
   color: #fff;
-  background: #27072c;
+  background: #de1bfc;
   font-size: 2rem;
   margin: 1rem 0;
 }
@@ -210,87 +209,11 @@ p {
 }
 
 .map2 {
-
-   
-    
+ 
   text-align: left;
   margin: 2%;
 }
 
-.ubicacion {
-  width: 500px;
-  height: 400px;
-  margin-top: 5%;
-  margin-left: 2em;
-  font-size: 20px;
-  padding-left: 2%;
-}
-
-.footer1 {
-  display: flex;
-  flex-flow: row wrap;
-  margin: 0 auto;
-  width: 100%;
-  background-color: #2890e6;
- 
-}
-
-.redes{
-    display: flex;
-   
-    
-    
-    background-color: #e9712a;
-    
-    
-}
-
-.pie{
-
-    display: flex;
-    text-align: right;
-    background-color: #d2313b;
-   
-}
-
-.icon-redes-footer {
-  margin: 15px;
-  border-bottom: #dcc2e4;
-  background: darkslategrey;
-  width: 50px;
-  height: 50px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 100%;
-  color: white;
-}
-
-.fa-facebook-f:hover {
-  text-decoration: none;
-  background: #41579a;
-  color: #fff;
-}
-
-.fa-twitter:hover {
-  text-decoration: none;
-  background: #2890e6;
-  color: #fff;
-}
-
-.fa-instagram:hover {
-  text-decoration: none;
-  background: linear-gradient(
-    to top right,
-    #fcde30,
-    #e9712a,
-    #d2313b,
-    #ae4198,
-    #7540a1,
-    #5443a8
-  );
-  color: #fff;
-}
 
 .about {
   background: url(img/GRISbrindis-cerveza.png) no-repeat center;
