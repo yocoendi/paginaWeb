@@ -31,6 +31,8 @@ body {
 }
 
 .boton {
+    flex-direction: row;
+    align-items: flex-start;
   padding-left: 2%;
 }
 
@@ -59,12 +61,34 @@ body {
 }
 
 p {
-  margin-bottom: 60px;
+
   font-size: 25px;
   color: #fff;
   padding: 0 100px;
   text-align: center;
 }
+.ptitle {
+
+    font-size: 25px;
+    color: #fff;
+    padding: 0 100px;
+    text-align: center;
+  }
+
+.ptitle1 {
+
+    font-size: 45px;
+    color: #fff;
+    padding: 0 100px;
+    text-align: center;
+  }
+  .ptitle2 {
+
+    font-size: 45px;
+    color: rgb(121, 114, 103);
+    padding: 0 100px;
+    text-align: center;
+  }
 
 .btn1 {
   display: inline-block;
@@ -95,7 +119,12 @@ p {
 }
 
 .btn3 {
-  display: inline-block;
+  order: 0;
+  flex: 0 1 auto;
+  align-self: auto;
+  height: auto;
+  width: auto;
+  
   padding: 10px 40px;
   border: 3px solid darkslategrey;
   text-decoration: none;
@@ -181,6 +210,9 @@ p {
 }
 
 .map2 {
+
+   
+    
   text-align: left;
   margin: 2%;
 }
@@ -275,10 +307,11 @@ p {
 .contact {
   background: url(./img/2022_12_12_08_01_2333333_Bar_Ratitos_Google_Maps.png)
     no-repeat center;
-  display: flex;
+  flex-direction: row;
   align-items: flex-start;
   padding: 120px;
-  background-size: cover;
+  padding-right: 50%;
+
 }
 
 @media (max-width: 768px) {
