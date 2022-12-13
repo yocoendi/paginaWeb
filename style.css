@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+body {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+
+
+.navbar a {
+    display: block;
+    padding: 20px 20px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    
+}
+
+.navbar a:hover {
+    background: none;
+}
+
+
+
+.header {
+    height: 80vh !important;
+    background: url(img/102561.png) no-repeat center;
+    background-size: cover;
+}
+
+.title {
+    margin-bottom: 30px;
+    font-size: 90px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+p {
+    margin-bottom: 60px;
+    font-size: 25px;
+    color: #fff;
+    padding: 0 100px;
+}
+
+.btn1 {
+    display: inline-block;
+    padding: 10px 40px;
+    border: 2px solid white;
+    color: #fff;
+    text-decoration: none;
+    background: none;
+ 
+}
+
+
+
+.btn:hover {
+    background: none;
+    
+}
+
+.btn-home {
+    display: flex;
+}
+
+.btn-home a {
+    margin: 0 10px;
+}
+
+
+.content {
+    height: 80vh !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sau {
+    padding: 30px;
+    background: #1f1d1d
+}
+
+.box-container {
+    
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    background-color: #9c27b0;
+
+}
+
+
+.box-container .box i {
+    height: 3rem;
+    width: 3rem;
+    line-height: 3rem;
+    text-align: center;
+    border-radius: 50%;
+    color: #fff;
+    background: #27072c;
+    font-size: 2rem;
+    margin: 1rem 0;
+
+}
+
+.box-container .box h3 {
+    font-size: 20px;
+    color: #111111;
+
+}
+
+.box-container .box p {
+    padding: 0 15px;
+    font-size: 16px;
+}
+
+#map{
+
+    background-color: rgb(182, 25, 25);
+    position: relative;
+    margin-top: -32%;
+    width: 700px;
+    height: 500px;
+   
+    
+    margin-left: 75px;
+   
+    
+  
+}
+
+.maps{
+
+    color: #9c27b0;
+    
+}
+
+.about {
+    background: #171717;
+}
+
+.price {
+    background: url(./img/86261947792.jpg) no-repeat center;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+}
+
+
+.contact {
+    background: url(./img/2022_12_12_08_01_2333333_Bar_Ratitos_Google_Maps.png) no-repeat center;
+    
+    background-size: cover;
+    
+}
+
+
+@media (max-width: 768px) {
+
+    .title {
+        margin-bottom: 0;
+        font-size: 40px;
+    }
+
+    .sau {
+        height: 100vh;
+    }
+
+    .navbar {
+        display: none;
+    }
+   
+    
+}
