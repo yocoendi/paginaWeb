@@ -208,8 +208,7 @@ p {
 }
 
 .contact {
-  background: url(./img/2022_12_12_08_01_2333333_Bar_Ratitos_Google_Maps.png)
-    no-repeat center;
+  background: url(./img/2022_12_12_08_01_2333333_Bar_Ratitos_Google_Maps.png)no-repeat center;
   flex-direction: row;
   align-items: flex-start;
   padding: 120px;
@@ -287,7 +286,7 @@ p {
   @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
   * {
-    font-family: "Poppins", sans-serif;
+   
   }
 
   img {
