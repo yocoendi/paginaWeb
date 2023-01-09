@@ -1,174 +1,173 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Carta Ratitos</title>
+<html lang="es">
 
-    <link rel="stylesheet" href="style1.css" />
-  </head>
-  <body>
-    <section class="wrap">
-        <div class="wrap-title-section">
-          <h2>CHACINAS</h2>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ristorante Italiano</title>
+    <script src="https://kit.fontawesome.com/283335a286.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@700&family=Mulish:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+
+    <header class="encabezado">
+        <div class="contenedor-navegacion">
+            <div class="contenido-navegacion contenedor">
+                <div class="logo">
+                    <h2>RATITOS <span class="degray">CARTA</h2>
+                </div>
+                <nav class="navegacion ocultar">
+                    <a href="#">Inicio</a>
+                    <a href="#">Sobre Nosotros</a>
+                    <a href="#">Menú</a>
+                    <a href="#">Chef</a>
+                    <a href="#">Contacto</a>
+                </nav>
+                <div class="hamburguesa">
+                    <span></span><span></span><span></span>
+                </div>
+            </div>
         </div>
-        <div class="wrap column-2 carta">
-          <div class="plato-carta">
-            <div class="img-plato-carta">
-              <img src="img/Plato-de-jamon-Iberico.jpg" alt="">
+        <div class="contenido-header">
+            <div class="contenedor-encabezado">
+                <div class="texto-encabezado">
+                    <h2>Visita nuestra carta</h2>
+                    <a href="#carta" class="btn bordes">CARTA</a>
+                </div>
+                <video autoplay loop muted>
+                    <source src="/assets/bg_video.mp4">
+                </video>
             </div>
-            <div class="title-plato-carta">
-              <h4>Plato de Jamón Iberico</h4>
-              <p>Exquisito plato de jamón al corte</p>
-            </div>
-            <div class="precio-plato-carta">
-              <span>14€</span>
-            </div>
-          </div>
-          <div class="plato-carta">
-            <div class="img-plato-carta">
-              <img src="img/bocadillo-atun-tomate-cebolla-xl-668x400x80xX.jpg" alt="">
-            </div>
-            <div class="title-plato-carta">
-              <h4>Lorem, ipsum dolor.</h4>
-              <p>Lorem ipsum dolor sit amet.</p>
-            </div>
-            <div class="precio-plato-carta">
-              <span>9€</span>
-            </div>
-          </div> 
-          <div class="plato-carta">
-            <div class="img-plato-carta">
-              <img src="img/bocadillo-atun-tomate-cebolla-xl-668x400x80xX.jpg" alt="">
-            </div>
-            <div class="title-plato-carta">
-              <h4>Lorem, ipsum dolor.</h4>
-              <p>Lorem ipsum dolor sit amet.</p>
-            </div>
-            <div class="precio-plato-carta">
-              <span>9€</span>
-            </div>
-          </div>
-          <div class="plato-carta">
-            <div class="img-plato-carta">
-              <img src="img/bocadillo-atun-tomate-cebolla-xl-668x400x80xX.jpg" alt="">
-            </div>
-            <div class="title-plato-carta">
-              <h4>Lorem, ipsum dolor.</h4>
-              <p>Lorem ipsum dolor sit amet.</p>
-            </div>
-            <div class="precio-plato-carta">
-              <span>9€</span>
-            </div>
-          </div>    
         </div>
-        <div class="wrap-title-section">
-          <h2>Pizzas</h2>
+    </header>
+
+    <section class="menu contenedor">
+        <h2 id="carta"class="texto-platillos">Platillos populares</h2>
+        <div class="botones-platillos">
+            <button class="todos btn btn-verde">Todos</button>
+            <button class="ensaladas btn btn-verde">Ensaladas</button>
+            <button class="pasta btn btn-verde">Pasta</button>
+            <button class="pizza btn btn-verde">Pizza</button>
+            <button class="postres btn btn-verde">Postres</button>
         </div>
-        <div class="wrap column-2 carta">
-          <div class="plato-carta">
-            <div class="img-plato-carta">
-              <img src="img/Pizzadescarga.jpg" alt="">
+        <div class="platillos">
+            <div class="platillo" data-platillo="ensalada">
+                <img data-src="assets/img/ensalada.webp" alt="ensalada">
+                <h2>Quinoa</h2>
+                <p>Quinoa, cerezas, tomate, aceitunas, cereal.</p>
+                <div class="precio">
+                    <p>$40.0</p>
+                    <button><i class="fas fa-shopping-basket"></i></button>
+                </div>
             </div>
-            <div class="title-plato-carta">
-              <h4>Lorem, ipsum dolor.</h4>
-              <p>Lorem ipsum dolor sit amet.</p>
+            <div class="platillo" data-platillo="ensalada">
+                <img data-src="assets/img/ensalada2.webp" alt="ensalada">
+                <h2>Quinoa</h2>
+                <p>Quinoa, cerezas, tomate, aceitunas, cereal.</p>
+                <div class="precio">
+                    <p>$40.0</p>
+                    <button><i class="fas fa-shopping-basket"></i></button>
+                </div>
             </div>
-            <div class="precio-plato-carta">
-              <span>9€</span>
+            <div class="platillo" data-platillo="ensalada">
+                <img data-src="assets/img/ensalada2.webp" alt="ensalada">
+                <h2>Quinoa</h2>
+                <p>Quinoa, cerezas, tomate, aceitunas, cereal.</p>
+                <div class="precio">
+                    <p>$40.0</p>
+                    <button><i class="fas fa-shopping-basket"></i></button>
+                </div>
             </div>
-          </div>
-          <div class="plato-carta">
-            <div class="img-plato-carta">
-                <img src="img/Pizzadescarga.jpg" alt="">
+            <div class="platillo" data-platillo="pasta">
+                <img data-src="assets/img/pasta1.webp" alt="pasta">
+                <h2>Quinoa</h2>
+                <p>Quinoa, cerezas, tomate, aceitunas, cereal.</p>
+                <div class="precio">
+                    <p>$40.0</p>
+                    <button><i class="fas fa-shopping-basket"></i></button>
+                </div>
             </div>
-            <div class="title-plato-carta">
-              <h4>Lorem, ipsum dolor.</h4>
-              <p>Lorem ipsum dolor sit amet.</p>
+            <div class="platillo" data-platillo="pasta">
+                <img data-src="assets/img/pasta2.webp" alt="pasta">
+                <h2>Quinoa</h2>
+                <p>Quinoa, cerezas, tomate, aceitunas, cereal.</p>
+                <div class="precio">
+                    <p>$40.0</p>
+                    <button><i class="fas fa-shopping-basket"></i></button>
+                </div>
             </div>
-            <div class="precio-plato-carta">
-              <span>9€</span>
+            <div class="platillo" data-platillo="pasta">
+                <img data-src="assets/img/pasta2.webp" alt="pasta">
+                <h2>Quinoa</h2>
+                <p>Quinoa, cerezas, tomate, aceitunas, cereal.</p>
+                <div class="precio">
+                    <p>$40.0</p>
+                    <button><i class="fas fa-shopping-basket"></i></button>
+                </div>
             </div>
-          </div> 
-          <div class="plato-carta">
-            <div class="img-plato-carta">
-               <img src="img/Pizzadescarga.jpg" alt="">
+            <div class="platillo" data-platillo="pizza">
+                <img data-src="assets/img/pizza1.webp" alt="pizza">
+                <h2>Quinoa</h2>
+                <p>Quinoa, cerezas, tomate, aceitunas, cereal.</p>
+                <div class="precio">
+                    <p>$40.0</p>
+                    <button><i class="fas fa-shopping-basket"></i></button>
+                </div>
             </div>
-            <div class="title-plato-carta">
-              <h4>Lorem, ipsum dolor.</h4>
-              <p>Lorem ipsum dolor sit amet.</p>
+            <div class="platillo" data-platillo="pizza">
+                <img data-src="assets/img/pizza2.webp" alt="pizza">
+                <h2>Quinoa</h2>
+                <p>Quinoa, cerezas, tomate, aceitunas, cereal.</p>
+                <div class="precio">
+                    <p>$40.0</p>
+                    <button><i class="fas fa-shopping-basket"></i></button>
+                </div>
             </div>
-            <div class="precio-plato-carta">
-              <span>9€</span>
+            <div class="platillo" data-platillo="pizza">
+                <img data-src="/assets/img/pizza2.webp" alt="pizza">
+                <h2>Quinoa</h2>
+                <p>Quinoa, cerezas, tomate, aceitunas, cereal.</p>
+                <div class="precio">
+                    <p>$40.0</p>
+                    <button><i class="fas fa-shopping-basket"></i></button>
+                </div>
             </div>
-          </div>
-          <div class="plato-carta">
-            <div class="img-plato-carta">
-                <img src="img/Pizzadescarga.jpg" alt="">
+            <div class="platillo" data-platillo="postre">
+                <img data-src="assets/img/postres1.webp" alt="postre">
+                <h2>Quinoa</h2>
+                <p>Quinoa, cerezas, tomate, aceitunas, cereal.</p>
+                <div class="precio">
+                    <p>$40.0</p>
+                    <button><i class="fas fa-shopping-basket"></i></button>
+                </div>
             </div>
-            <div class="title-plato-carta">
-              <h4>Lorem, ipsum dolor.</h4>
-              <p>Lorem ipsum dolor sit amet.</p>
+            <div class="platillo" data-platillo="postre">
+                <img data-src="assets/img/postres2.webp" alt="postre">
+                <h2>Quinoa</h2>
+                <p>Quinoa, cerezas, tomate, aceitunas, cereal.</p>
+                <div class="precio">
+                    <p>$40.0</p>
+                    <button><i class="fas fa-shopping-basket"></i></button>
+                </div>
             </div>
-            <div class="precio-plato-carta">
-              <span>9€</span>
+            <div class="platillo" data-platillo="postre">
+                <img data-src="assets/img/postres2.webp" alt="postre">
+                <h2>Quinoa</h2>
+                <p>Quinoa, cerezas, tomate, aceitunas, cereal.</p>
+                <div class="precio">
+                    <p>$40.0</p>
+                    <button><i class="fas fa-shopping-basket"></i></button>
+                </div>
             </div>
-          </div>   
         </div>
-        <div class="wrap-title-section">
-          <h2>Pastas</h2>
-        </div>
-        <div class="wrap column-2 carta">
-          <div class="plato-carta">
-            <div class="img-plato-carta">
-              <img src="img/pasta_al_pomodoro_75549_orig.jpg" alt="">
-            </div>
-            <div class="title-plato-carta">
-              <h4>Lorem, ipsum dolor.</h4>
-              <p>Lorem ipsum dolor sit amet.</p>
-            </div>
-            <div class="precio-plato-carta">
-              <span>9€</span>
-            </div>
-          </div>
-          <div class="plato-carta">
-            <div class="img-plato-carta">
-                <img src="img/pasta_al_pomodoro_75549_orig.jpg" alt="">
-            </div>
-            <div class="title-plato-carta">
-              <h4>Lorem, ipsum dolor.</h4>
-              <p>Lorem ipsum dolor sit amet.</p>
-            </div>
-            <div class="precio-plato-carta">
-              <span>9€</span>
-            </div>
-          </div> 
-          <div class="plato-carta">
-            <div class="img-plato-carta">
-                <img src="img/pasta_al_pomodoro_75549_orig.jpg" alt="">
-            </div>
-            <div class="title-plato-carta">
-              <h4>Lorem, ipsum dolor.</h4>
-              <p>Lorem ipsum dolor sit amet.</p>
-            </div>
-            <div class="precio-plato-carta">
-              <span>9€</span>
-            </div>
-          </div>
-          <div class="plato-carta">
-            <div class="img-plato-carta">
-                <img src="img/pasta_al_pomodoro_75549_orig.jpg" alt="">
-            </div>
-            <div class="title-plato-carta">
-              <h4>Lorem, ipsum dolor.</h4>
-              <p>Lorem ipsum dolor sit amet.</p>
-            </div>
-            <div class="precio-plato-carta">
-              <span>9€</span>
-            </div>
-          </div>   
-        </div>
-      </section>
-  </body>
-</html>
+    </section>
+
+    <script src="js/app.js"></script>
+    
+</body>
