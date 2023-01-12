@@ -41,14 +41,15 @@ body {
   font-size: 90px;
   font-weight: 600;
   text-transform: uppercase;
-  color: white;
+  color:  rgb(143, 118, 79);
+ 
   text-align: center;
 }
 .title1 {
   margin-bottom: 30px;
   font-size: 70px;
   font-weight: 600;
-  color: rgb(121, 114, 103);
+  color:rgb(201, 154, 80);
   text-align: center;
 }
 
