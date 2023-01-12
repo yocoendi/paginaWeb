@@ -26,7 +26,7 @@ body {
 
 .header {
   height: 80vh !important;
-  background: url(img/102561.png) no-repeat center;
+  background: url(img/CBF1B88C-0287-4536-B475-8BE303AE0365.JPG) no-repeat center;
   background-size: cover;
 }
 
@@ -202,6 +202,12 @@ p {
 
 .price {
   background: url(./img/86261947792.jpg) no-repeat center;
+  background-attachment: fixed;
+  background-size: cover;
+  text-align: center;
+}
+.prices {
+  background: url(./img/CBF1B88C-0287-4536-B475-8BE303AE0365\ \(1\).jpg) no-repeat center;
   background-attachment: fixed;
   background-size: cover;
   text-align: center;
